@@ -31,7 +31,6 @@
     Model MRegistrasi digunakan untuk berinteraksi dengan tabel member dalam database, di mana hanya tiga kolom yang diperbolehkan untuk diisi, yaitu: nama, email, dan password.
 
     Pada RegistrasiController, method registrasi() bertugas menerima data yang dikirim melalui permintaan dari aplikasi Flutter. Data yang diterima mencakup nama, email, dan password (password di-hash menggunakan password_hash demi keamanan). Setelah data diolah, MRegistrasi dipakai untuk menyimpan informasi tersebut ke database. Jika penyimpanan berhasil, sistem mengembalikan respons dengan status 200 dan pesan "Registrasi Berhasil".
-
 ## Proses Login
 ### 1. Frontend - Flutter Model Login:
     Model Login di Flutter berfungsi untuk merepresentasikan data respons dari API saat proses login berlangsung. Model ini memiliki beberapa properti, yaitu code, status, token, userID, dan userEmail. Method fromJson() digunakan untuk mengonversi respons JSON menjadi objek Login.
@@ -107,7 +106,7 @@
     Metode ProdukBloc.updateProduk() dipanggil dengan objek produk yang telah diperbarui sebagai argumen. Fungsi ini mengirimkan permintaan PUT ke API untuk memperbarui data produk di database.
 ### 6. Menangani Respons:
     Setelah permintaan berhasil, pengguna akan diarahkan kembali ke halaman ProdukPage. Jika ada kesalahan selama proses, dialog peringatan akan muncul untuk memberi tahu pengguna tentang masalah tersebut.
-    
+
 ## Halaman Register 
 ![Lampiran Register](Register.png)
 
