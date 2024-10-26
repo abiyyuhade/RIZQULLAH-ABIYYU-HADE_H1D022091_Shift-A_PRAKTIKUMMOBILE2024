@@ -1,7 +1,0 @@
-{
-  "name": "TugasIonic",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
