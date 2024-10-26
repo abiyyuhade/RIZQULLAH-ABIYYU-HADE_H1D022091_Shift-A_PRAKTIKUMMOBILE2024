@@ -1,0 +1,31 @@
+.custom-card {
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #aaaaaa, -5px -5px 15px #ffffff;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+ion-card-title {
+    font-size: 1.5em;
+    color: #007acc;
+    font-weight: bold;
+}
+
+ion-card-subtitle {
+    font-size: 1.2em;
+    color: #555;
+    font-style: italic;
+}
+
+ion-card-content p {
+    font-size: 1.1em;
+    color: #333;
+    margin: 5px 0;
+}
+
+ion-card-content strong {
+    color: #ff6f61;
+    font-weight: bold;
+}
