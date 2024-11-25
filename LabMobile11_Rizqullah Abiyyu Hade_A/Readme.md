@@ -12,6 +12,7 @@
 
 # Halaman Tambah Tugas
 ![Lampiran Tambah Tugas](Tambah.png)
+
     Untuk menambahkan tugas baru, pengguna bisa membuka formulir yang muncul dalam bentuk popup modal. Formulir ini berisi beberapa elemen penting:
     - Judul Tugas: Kolom untuk mengisi nama atau topik utama dari tugas.
     - Deskripsi: Kolom untuk menambahkan keterangan atau detail dari tugas yang akan dibuat.
@@ -20,6 +21,7 @@
 
 # Halaman Edit Tugas
 ![Lampiran Edit Tugas](Edit.png)
+
     Jika ada tugas yang perlu diperbarui, pengguna dapat menggunakan fitur edit. Tampilan edit serupa dengan formulir tambah tugas, tetapi isinya sudah otomatis terisi dengan data tugas yang dipilih. Berikut adalah elemen utama pada formulir edit:
     - Judul Tugas: Berisi nama tugas yang bisa diubah sesuai kebutuhan.
     - Deskripsi: Menampilkan informasi detail tugas yang juga dapat diperbarui.
@@ -28,10 +30,12 @@
 
 # Fitur Hapus Tugas
 ![Lampiran Hapus](Hapus.png)
+
     Penghapusan tugas dapat dilakukan langsung dari halaman utama dengan cara menggeser tugas ke kanan. Setelah tindakan ini dilakukan, tugas akan langsung hilang dari daftar dan tidak akan muncul kembali. Selain itu, pengguna akan mendapatkan notifikasi bahwa tugas telah berhasil dihapus.
 
 # Halaman Tugas Selesai
 ![Lampiran Halaman Tugas Selesai](Selesai.png)
+
     Semua tugas yang telah selesai dipindahkan ke halaman atau bagian khusus yang bisa dibuka menggunakan accordion (bagian yang bisa diperluas). Setiap tugas yang selesai tetap memuat informasi seperti judul, deskripsi, dan tanggal terakhir diperbarui.
     Di bagian ini, pengguna masih bisa melakukan beberapa tindakan:
     - Pulihkan Tugas: Mengembalikan tugas ke daftar aktif agar dapat dikerjakan ulang.
