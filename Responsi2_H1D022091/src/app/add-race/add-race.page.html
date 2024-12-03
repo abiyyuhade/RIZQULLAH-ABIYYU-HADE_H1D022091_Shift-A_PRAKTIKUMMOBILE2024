@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add Race</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input placeholder="Race Name" [(ngModel)]="race.name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Race Description" [(ngModel)]="race.description"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Race Date" type="date" [(ngModel)]="race.date"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Track Name" [(ngModel)]="race.trackName"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Track Length (in km)" [(ngModel)]="race.trackLength" type="number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Track Type (Dirt, Asphalt, etc)" [(ngModel)]="race.trackType"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="addRace()">Add Race</ion-button>
+</ion-content>

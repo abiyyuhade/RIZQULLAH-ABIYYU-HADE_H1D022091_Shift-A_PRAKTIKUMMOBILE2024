@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Race Detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input placeholder="Race Name" [(ngModel)]="race.name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Race Date" type="date" [(ngModel)]="race.date"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-textarea placeholder="Description" [(ngModel)]="race.description"></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Track Name" [(ngModel)]="race.trackName"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Track Length (in km)" type="number" [(ngModel)]="race.trackLength"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Track Type (e.g., Dirt, Asphalt)" [(ngModel)]="race.trackType"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="updateRace()">Update Race</ion-button>
+  
+  <ion-button expand="full" color="danger" (click)="deleteRace()">Delete Race</ion-button>
+</ion-content>
